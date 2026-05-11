@@ -727,54 +727,24 @@ document.addEventListener("DOMContentLoaded", () => {
 
   // ===== Branch selector data =====
   const branchData = {
-    maypajo: {
-      address: "Alpha Grind Lab Maypajo Caloocan",
-      phoneDisplay: "0954 302 9792",
-      phoneTel: "09694828850",
-      hours: "Mon – Sat: 8:00 AM – 11:00 PM • Sun: 9:00 AM – 9:00 PM",
-      map: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3860.2628023839366!2d120.97298157517585!3d14.641017876085765!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397b55e5088d4d1%3A0x27dd5f121caca43d!2sAlpha%20Grind%20Lab%20-%20Maypajo%20Caloocan!5e0!3m2!1sen!2sph!4v1769251884798!5m2!1sen!2sph",
-      directions:
-        "https://www.google.com/maps/search/?api=1&query=Alpha+Grind+Lab+Maypajo+Caloocan",
-      img: "../Images/alpha-pic-1.png",
-    },
     north: {
-      address: "Alpha Grind Lab - Sangandaan Caloocan",
+      address: "Gym Branch 1",
       phoneDisplay: "0969 482 8850",
       phoneTel: "09xxxxxxxxx",
       hours: "Mon – Sun: 6:00 AM – 10:00 PM",
-      map: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3859.952261068238!2d120.96846087517599!3d14.658650675652632!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397b58ce125829b%3A0xa453961c8c9a125b!2sAlpha%20Grind%20Lab%20-%20Sangandaan%20Caloocan!5e0!3m2!1sen!2sph!4v1771461752468!5m2!1sen!2sph",
+      map: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3860.3919758625643!2d120.97249247517578!3d14.633677176265847!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397b5c2be868bd5%3A0x664960ab70cb4248!2sRoshan%20Gym!5e0!3m2!1sen!2sph!4v1778498505419!5m2!1sen!2sph",
       directions:
-        "https://www.google.com/maps/search/?api=1&query=Alpha+Grind+Lab+Sangandaan+Caloocan",
-      img: "../Images/alpha-pic-1.png",
+        "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3860.3919758625643!2d120.97249247517578!3d14.633677176265847!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397b5c2be868bd5%3A0x664960ab70cb4248!2sRoshan%20Gym!5e0!3m2!1sen!2sph!4v1778498505419!5m2!1sen!2sph",
+      img: "../Images/gym-demo1.jpeg",
     },
     south: {
-      address: "Alpha Gym Longos",
+      address: "Gym Branch 2",
       phoneDisplay: "0969 482 8850",
       phoneTel: "09xxxxxxxxx",
       hours: "Mon – Sun: 6:00 AM – 10:00 PM",
-      map: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3860.0490811505297!2d120.95755997517603!3d14.6531553757877!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397b5ff46b2a9cd%3A0x9abb6764e2e5d7d7!2sAlpha%20Grind%20Lab!5e0!3m2!1sen!2sph!4v1771462200175!5m2!1sen!2sph",
+      map: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3860.3919758625643!2d120.97249247517578!3d14.633677176265847!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397b5c2be868bd5%3A0x664960ab70cb4248!2sRoshan%20Gym!5e0!3m2!1sen!2sph!4v1778498505419!5m2!1sen!2sph",
       directions:
-        "https://www.google.com/maps/search/?api=1&query=Alpha+Grind+Lab",
-      img: "../Images/alpha-pic-1.png",
-    },
-    east: {
-      address: "Alpha Grind Lab - Tinajeros Malabon",
-      phoneDisplay: "0969 482 8850",
-      phoneTel: "09xxxxxxxxx",
-      hours: "Mon – Sun: 6:00 AM – 10:00 PM",
-      map: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3859.7511323265567!2d120.9678568751763!3d14.670059875372184!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397b56975f63d0b%3A0x6c85c9c945030582!2sAlpha%20Grind%20Lab%20-%20Tinajeros%20Malabon!5e0!3m2!1sen!2sph!4v1771462323078!5m2!1sen!2sph",
-      directions:
-        "https://www.google.com/maps/search/?api=1&query=Alpha+Grind+Lab+Tinajeros+Malabon",
-      img: "../Images/alpha-pic-1.png",
-    },
-    west: {
-      address: "Alpha Grind Lab - Recto",
-      phoneDisplay: "0969 482 8850",
-      phoneTel: "09xxxxxxxxx",
-      hours: "Mon – Sun: 6:00 AM – 10:00 PM",
-      map: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3860.9713339614473!2d120.98819207517526!3d14.600708877073874!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397c9cba91abbf5%3A0xe6c754dd77ebdf11!2sALPHA%20GRIND%20LAB%20RECTO!5e0!3m2!1sen!2sph!4v1771462635196!5m2!1sen!2sph",
-      directions:
-        "https://www.google.com/maps/search/?api=1&query=ALPHA+GRIND+LAB+RECTO",
+        "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3860.3919758625643!2d120.97249247517578!3d14.633677176265847!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397b5c2be868bd5%3A0x664960ab70cb4248!2sRoshan%20Gym!5e0!3m2!1sen!2sph!4v1778498505419!5m2!1sen!2sph",
       img: "../Images/alpha-pic-1.png",
     },
   };
